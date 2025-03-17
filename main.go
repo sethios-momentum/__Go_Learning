@@ -1,10 +1,19 @@
 package main
 
 import (
+
 	"fmt"
 	"math"
 	"math/rand"
 )
+
+//add new function
+
+func addition (a int, b int) int  {
+	
+	return a + b
+}
+
 
 func main() {
 
@@ -14,5 +23,6 @@ func main() {
 
 	println("Now you Have %g Problems ", math.Sqrt(91))
 
+	fmt.Println(addition(45,67))
 	fmt.Printf("Now you Have %g Problems ", math.Sqrt(91))
 }
